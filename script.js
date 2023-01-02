@@ -72,7 +72,7 @@
         answerDiv.innerHTML = `<h2>${distance} miles converts to: ${conversion} kilometers</h2>`
       }
       else {
-        let conversion = (distance * 0.621371192).toFixed(3);
+        const conversion = (distance * 0.621371192).toFixed(3);
         answerDiv.innerHTML = `<h2>${distance} kilometers converts to: ${conversion} miles</h2>`
       }k
     }
